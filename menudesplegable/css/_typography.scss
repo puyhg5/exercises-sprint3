@@ -1,0 +1,13 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-item{
+  letter-spacing: 2px;
+  text-decoration: none;
+    transition: font-weight 0.3s linear;
+}
+
+.nav-item:hover{
+  font-weight: bold;
+}

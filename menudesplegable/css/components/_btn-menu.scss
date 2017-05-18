@@ -1,0 +1,23 @@
+.burguer-menu{
+  background-color: black;
+  width: 30px;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.3s linear;
+  display: none;
+}
+
+.burguer-menu:hover{
+  opacity: 0.5;
+}
+
+.burguer-menu img{
+  width: 100%;
+}
+
+@media (max-width: 780px) {
+  .burguer-menu{
+    display: inline;
+  }
+}

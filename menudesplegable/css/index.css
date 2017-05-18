@@ -1,0 +1,108 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  margin: 0;
+  overflow-x: hidden; }
+
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+.nav-item {
+  letter-spacing: 2px;
+  text-decoration: none;
+  -webkit-transition: font-weight 0.3s linear;
+  transition: font-weight 0.3s linear; }
+
+.nav-item:hover {
+  font-weight: bold; }
+
+.burguer-menu {
+  background-color: black;
+  width: 30px;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: opacity 0.3s linear;
+  transition: opacity 0.3s linear;
+  display: none; }
+
+.burguer-menu:hover {
+  opacity: 0.5; }
+
+.burguer-menu img {
+  width: 100%; }
+
+@media (max-width: 780px) {
+  .burguer-menu {
+    display: inline; } }
+.header {
+  background-color: black;
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 50px;
+  position: fixed; }
+
+.logo {
+  width: 120px; }
+
+.logo-img {
+  width: 100%; }
+
+.nav {
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s; }
+
+.list-nav {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.nav-item {
+  margin: 0 5px;
+  color: white; }
+
+@media (max-width: 780px) {
+  .nav {
+    position: absolute;
+    right: 0;
+    top: 100px;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%); }
+
+  .active {
+    -webkit-transform: translateX(0);
+            transform: translateX(0); }
+
+  .list-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0;
+    padding: 0; }
+
+  .nav-item {
+    margin: 0;
+    background-color: gray;
+    text-align: center;
+    padding: 10px 0px;
+    width: 100vw;
+    border-bottom: 1px solid white; } }
+main {
+  padding: 120px 50px 0; }
+
+/*# sourceMappingURL=index.css.map */

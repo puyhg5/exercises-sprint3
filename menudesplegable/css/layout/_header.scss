@@ -17,34 +17,28 @@
   width: 100%;
 }
 
-.nav{
-  transition: transform 0.5s;
-}
-
 .list-nav{
   list-style: none;
   display: flex;
 }
 
 .nav-item{
+  transition: transform 0.3s;
+}
+
+.format-item{
   margin: 0 5px;
   color: white;
 }
 
 @media (max-width: 780px) {
-  .nav{
-    position: absolute;
-    right: 0;
-    top: $height-header;
-    transform: translateX(100%);
-  }
-  .active{
-    transform: translateX(0);
-  }
   .list-nav{
     flex-direction: column;
     margin: 0;
     padding: 0;
+    position: absolute;
+    right: 0;
+    top: $height-header;
   }
   .nav-item{
     margin: 0;
@@ -53,5 +47,9 @@
     padding: 10px 0px;
     width: 100vw;
     border-bottom: 1px solid white;
+    transform: translateX(100%);
+  }
+  .active{
+    transform: translateX(0);
   }
 }

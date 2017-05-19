@@ -2,12 +2,12 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
-.nav-item{
+.format-item{
   letter-spacing: 2px;
   text-decoration: none;
-    transition: font-weight 0.3s linear;
+  transition: color 0.8s;
 }
 
-.nav-item:hover{
-  font-weight: bold;
+.format-item:hover{
+  color: rgba(255,255,255,0.5);
 }

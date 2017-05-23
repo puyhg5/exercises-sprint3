@@ -98,12 +98,12 @@ body {
     width: 100vw;
     border-bottom: 1px solid white;
     -webkit-transform: translateX(100%);
-            transform: translateX(100%); }
-
-  .active {
-    -webkit-transform: translateX(0);
-            transform: translateX(0); } }
+            transform: translateX(100%); } }
 main {
   padding: 120px 50px 0; }
+
+.active {
+  -webkit-transform: translateX(0);
+          transform: translateX(0); }
 
 /*# sourceMappingURL=index.css.map */

@@ -1,5 +1,5 @@
 var buttonClick = document.querySelector(".burguer-menu");
-var items = document.querySelectorAll(".nav-item");
+var items = document.querySelectorAll(".nav-item-responsive");
 
 function toggleMenu() {
 var delay = 0;

@@ -22,10 +22,6 @@
   display: none;
 }
 
-.nav-item{
-  transition: transform 0.3s;
-}
-
 .format-item-desktop{
   margin: 0 5px;
 }
@@ -42,7 +38,7 @@
   top: $height-header;
 }
 
-.nav-item{
+.nav-item-responsive{
   margin: 0;
   background-color: gray;
   text-align: center;
@@ -51,6 +47,7 @@
   border-bottom: 1px solid white;
   position: relative;
   right: -100%;
+  transition: transform 0.3s;
 }
 
 @media (min-width: 780px) {
